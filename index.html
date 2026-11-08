@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fernando Parise — Desenvolvimento de Sistemas e Integrações Fiscais</title>
+<meta name="description" content="Desenvolvedor Delphi especializado em ERP e integrações fiscais: NF-e, NFS-e, CT-e, GNRE, SEFAZ e adequação à Reforma Tributária (IBS/CBS, CNPJ alfanumérico). Jaraguá do Sul/SC.">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fernando Parise — Sistemas e Integrações Fiscais">
+<meta property="og:description" content="Legado não é problema. Rejeição é. ERP, NF-e, NFS-e, CT-e, GNRE e Reforma Tributária.">
+<meta property="og:locale" content="pt_BR">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topbar">
+  <div class="wrap topbar__in">
+    <a href="#topo" class="brand">
+      <span class="brand__mark" aria-hidden="true">IR</span>
+      <span class="brand__txt"><b>FERNANDO PARISE</b><small>SISTEMAS · IRON RONIN</small></span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    <nav id="menu" class="nav" aria-label="Principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#casos">Casos</a>
+      <a href="#reforma">Reforma</a>
+      <a href="#ferramentas">Ferramentas</a>
+      <a class="btn btn--gold btn--sm" href="#contato">Falar sobre um projeto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- HERO -->
+<section id="topo" class="hero">
+  <div class="dots" aria-hidden="true"></div>
+  <div class="wrap hero__in">
+    <div class="hero__text">
+      <p class="eyebrow rise d1"><span class="led" aria-hidden="true"></span>DESENVOLVEDOR DELPHI · INTEGRAÇÕES FISCAIS</p>
+      <h1 class="hero__h rise d2">Legado não é problema.<br><span class="gold">Rejeição é.</span></h1>
+      <p class="hero__lead rise d3">Sou Fernando Parise. Desenvolvo e mantenho ERPs e integrações fiscais: NF-e, NFS-e, CT-e, GNRE e a adequação à Reforma Tributária. Faço o sistema evoluir sem parar a operação de quem depende dele.</p>
+      <div class="hero__ctas rise d4">
+        <a class="btn btn--gold btn--lg" href="#contato">Falar sobre um projeto
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn--ghost btn--lg" href="#ferramentas">Validar um CNPJ alfanumérico</a>
+      </div>
+    </div>
+
+    <div class="hero__term rise d3">
+      <div class="term" aria-label="Exemplos de execução no terminal">
+        <div class="term__bar">
+          <i></i><i></i><i></i>
+          <span class="mono">fernando@erp:~</span>
+        </div>
+        <pre class="term__body" id="term" aria-live="off"></pre>
+      </div>
+      <div class="term__chips" role="group" aria-label="Escolha um cenário">
+        <button type="button" class="chip is-on" data-scn="0">NF-e</button>
+        <button type="button" class="chip" data-scn="1">Reforma</button>
+        <button type="button" class="chip" data-scn="2">CNPJ</button>
+        <button type="button" class="chip" data-scn="3">Legado</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH STRIP -->
+<div class="strip" aria-hidden="true">
+  <div class="strip__track">
+    <div class="strip__g"><span>NF-e</span><b>/</b><span>NFS-e</span><b>/</b><span>CT-e</span><b>/</b><span>GNRE</span><b>/</b><span>SEFAZ</span><b>/</b><span class="gold">IBS · CBS</span><b>/</b><span>Delphi</span><b>/</b><span>Firebird</span><b>/</b><span>SQL</span><b>/</b><span>PHP</span><b>/</b><span>PostgreSQL</span><b>/</b></div>
+    <div class="strip__g"><span>NF-e</span><b>/</b><span>NFS-e</span><b>/</b><span>CT-e</span><b>/</b><span>GNRE</span><b>/</b><span>SEFAZ</span><b>/</b><span class="gold">IBS · CBS</span><b>/</b><span>Delphi</span><b>/</b><span>Firebird</span><b>/</b><span>SQL</span><b>/</b><span>PHP</span><b>/</b><span>PostgreSQL</span><b>/</b></div>
+  </div>
+</div>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="sec">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <p class="eyebrow">01 · SERVIÇOS</p>
+        <h2 class="h2">Onde eu entro no seu sistema.</h2>
+      </div>
+      <p class="sec__aside">Quatro frentes, um padrão: entender o código que já existe antes de mexer nele.</p>
+    </div>
+    <div class="svc" data-tabs>
+      <div class="svc__list" role="tablist" aria-label="Serviços">
+        <button class="tabbtn svcbtn is-on" role="tab" aria-selected="true" aria-controls="sv-1" id="tb-sv-1"><span class="mono">01</span><span class="svcbtn__t">Integrações fiscais</span><span class="svcbtn__s">NF-e · NFS-e · CT-e · GNRE</span></button>
+        <button class="tabbtn svcbtn" role="tab" aria-selected="false" aria-controls="sv-2" id="tb-sv-2"><span class="mono">02</span><span class="svcbtn__t">Reforma Tributária</span><span class="svcbtn__s">IBS · CBS · CNPJ alfanumérico</span></button>
+        <button class="tabbtn svcbtn" role="tab" aria-selected="false" aria-controls="sv-3" id="tb-sv-3"><span class="mono">03</span><span class="svcbtn__t">Sistemas legados</span><span class="svcbtn__s">Delphi · Firebird</span></button>
+        <button class="tabbtn svcbtn" role="tab" aria-selected="false" aria-controls="sv-4" id="tb-sv-4"><span class="mono">04</span><span class="svcbtn__t">Integrações sob medida</span><span class="svcbtn__s">Webservices · Web · Módulos</span></button>
+      </div>
+      <div class="svc__panels">
+        <article class="svcp fade" role="tabpanel" id="sv-1" aria-labelledby="tb-sv-1">
+          <span class="svcp__code mono" aria-hidden="true">&lt;NFe&gt;</span>
+          <h3 class="h3">Integrações fiscais</h3>
+          <p>Emissão, eventos e retorno da SEFAZ funcionando dentro do seu ERP, com tratamento de rejeição que explica o problema em vez de só mostrar um código.</p>
+          <ul class="ticks"><li>Emissão e eventos de NF-e, NFS-e, CT-e e GNRE</li><li>Diagnóstico de rejeições e divergências de cálculo</li><li>Leitura, análise e importação de XML</li><li>Comunicação com webservices SOAP e certificado digital</li></ul>
+        </article>
+        <article class="svcp fade" role="tabpanel" id="sv-2" aria-labelledby="tb-sv-2" hidden>
+          <span class="svcp__code mono" aria-hidden="true">IBSCBS</span>
+          <h3 class="h3">Reforma Tributária</h3>
+          <p>A transição vai até 2033 e muda o documento fiscal, o cálculo e o cadastro. Adequo o sistema por etapas, acompanhando as notas técnicas, sem reescrever o que já funciona.</p>
+          <ul class="ticks"><li>Grupos de IBS e CBS no XML e totalizadores</li><li>Notas de crédito e de débito da reforma</li><li>CNPJ alfanumérico: cadastro, validação e banco de dados</li><li>Testes em homologação antes de virar a chave</li></ul>
+        </article>
+        <article class="svcp fade" role="tabpanel" id="sv-3" aria-labelledby="tb-sv-3" hidden>
+          <span class="svcp__code mono" aria-hidden="true">begin..end;</span>
+          <h3 class="h3">Sistemas legados</h3>
+          <p>Sistema antigo que roda o negócio merece manutenção séria, não reescrita às pressas. Corrijo, documento e modernizo aos poucos, com o sistema em produção.</p>
+          <ul class="ticks"><li>Manutenção e evolução em Delphi / Object Pascal</li><li>Firebird: estrutura, procedures, performance e conexão</li><li>Correção de bugs antigos e documentação do que ninguém lembra</li><li>Modernização gradual, sem parar a operação</li></ul>
+        </article>
+        <article class="svcp fade" role="tabpanel" id="sv-4" aria-labelledby="tb-sv-4" hidden>
+          <span class="svcp__code mono" aria-hidden="true">POST /api</span>
+          <h3 class="h3">Integrações sob medida</h3>
+          <p>Seu sistema precisa conversar com transportadora, banco, plataforma ou outro sistema? Eu construo a ponte e trato os casos que quebram integração no mundo real.</p>
+          <ul class="ticks"><li>Integração com webservices SOAP e REST</li><li>Novos módulos dentro do ERP existente</li><li>Aplicações web em PHP com PostgreSQL</li><li>Rotinas de importação, exportação e conferência</li></ul>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASOS -->
+<section id="casos" class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <p class="eyebrow">02 · DIÁRIO DE BORDO</p>
+        <h2 class="h2">Problemas reais. Sem nome de cliente.</h2>
+      </div>
+      <p class="sec__aside">Alguns casos que resolvi recentemente. Toque em um card para ver o diagnóstico.</p>
+    </div>
+    <div class="cases">
+      <details class="case">
+        <summary>
+          <span class="case__tag mono">REFORMA · NF-e</span>
+          <span class="case__t">Notas de crédito e de débito do IBS/CBS</span>
+          <span class="case__more mono" aria-hidden="true">ver caso</span>
+        </summary>
+        <dl class="case__body">
+          <div><dt class="mono">PROBLEMA</dt><dd>O ERP precisava emitir as novas finalidades de nota da reforma, com estrutura de XML que ainda estava sendo definida nas notas técnicas.</dd></div>
+          <div><dt class="mono">DIAGNÓSTICO</dt><dd>As rejeições vinham da posição dos grupos no XML e de totais que não fechavam com a soma dos itens.</dd></div>
+          <div><dt class="mono">SOLUÇÃO</dt><dd>Documento referenciado no lugar certo do item, estrutura de estorno de crédito montada e totalizadores de IBS/CBS alinhados aos itens.</dd></div>
+        </dl>
+      </details>
+      <details class="case">
+        <summary>
+          <span class="case__tag mono">GNRE · DIFAL</span>
+          <span class="case__t">Guia rejeitada para outro estado</span>
+          <span class="case__more mono" aria-hidden="true">ver caso</span>
+        </summary>
+        <dl class="case__body">
+          <div><dt class="mono">PROBLEMA</dt><dd>GNRE de DIFAL voltando rejeitada para um estado específico, travando o faturamento das vendas para lá.</dd></div>
+          <div><dt class="mono">DIAGNÓSTICO</dt><dd>O valor calculado pelo sistema divergia da regra de cálculo exigida por aquele estado.</dd></div>
+          <div><dt class="mono">SOLUÇÃO</dt><dd>Cálculo revisado conforme a regra estadual e validado contra o retorno do webservice antes de liberar.</dd></div>
+        </dl>
+      </details>
+      <details class="case">
+        <summary>
+          <span class="case__tag mono">SOAP · FRETE</span>
+          <span class="case__t">Cotação de frete que parou de responder</span>
+          <span class="case__more mono" aria-hidden="true">ver caso</span>
+        </summary>
+        <dl class="case__body">
+          <div><dt class="mono">PROBLEMA</dt><dd>A integração de cotação com a plataforma de frete deixou de funcionar sem nenhuma mudança aparente no sistema.</dd></div>
+          <div><dt class="mono">DIAGNÓSTICO</dt><dd>Constantes antigas apontavam para um endpoint desatualizado. De quebra, apareceu um risco escondido: CEPs com zero à esquerda sendo truncados.</dd></div>
+          <div><dt class="mono">SOLUÇÃO</dt><dd>Endpoint corrigido, configuração centralizada e tratamento do CEP como texto em toda a cadeia.</dd></div>
+        </dl>
+      </details>
+      <details class="case">
+        <summary>
+          <span class="case__tag mono">CT-e · FIREBIRD</span>
+          <span class="case__t">Módulo de análise de XML de CT-e</span>
+          <span class="case__more mono" aria-hidden="true">ver caso</span>
+        </summary>
+        <dl class="case__body">
+          <div><dt class="mono">PROBLEMA</dt><dd>Era preciso conferir os CT-e recebidos dentro do ERP, mas o novo módulo nem conseguia se conectar ao banco.</dd></div>
+          <div><dt class="mono">DIAGNÓSTICO</dt><dd>Erro de autenticação causado pela configuração de segurança do Firebird 3, não pelo código.</dd></div>
+          <div><dt class="mono">SOLUÇÃO</dt><dd>Servidor configurado corretamente e módulo de leitura e análise dos XML entregue integrado ao sistema.</dd></div>
+        </dl>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- REFORMA -->
+<section id="reforma" class="sec">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <p class="eyebrow">03 · REFORMA TRIBUTÁRIA</p>
+        <h2 class="h2">O que o seu sistema precisa fazer, ano a ano.</h2>
+      </div>
+      <p class="sec__aside">Arraste a linha do tempo. A transição vai até 2033, e cada etapa exige mudança no ERP.</p>
+    </div>
+
+    <div class="rt">
+      <div class="rt__top">
+        <div class="rt__year"><span id="rtYear">2026</span><span class="rt__now mono" id="rtNow">HOJE</span></div>
+        <div class="rt__phase mono" id="rtPhase">FASE DE TESTE</div>
+      </div>
+      <label class="sr" for="rtRange">Ano da transição</label>
+      <input type="range" id="rtRange" min="2026" max="2033" step="1" value="2026">
+      <div class="rt__ticks mono" aria-hidden="true">
+        <span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span><span>32</span><span>33</span>
+      </div>
+
+      <div class="rt__grid">
+        <div class="rt__bars">
+          <div class="bar">
+            <div class="bar__lab"><span>Tributos federais sobre consumo</span><span class="mono" id="fedLab"></span></div>
+            <div class="bar__track"><div class="bar__old" id="fedOld"></div><div class="bar__new" id="fedNew"></div></div>
+            <div class="bar__leg mono"><span><i class="sw sw--old"></i>PIS/Cofins</span><span><i class="sw sw--new"></i>CBS</span></div>
+          </div>
+          <div class="bar">
+            <div class="bar__lab"><span>Tributos estaduais e municipais</span><span class="mono" id="locLab"></span></div>
+            <div class="bar__track"><div class="bar__old" id="locOld"></div><div class="bar__new" id="locNew"></div></div>
+            <div class="bar__leg mono"><span><i class="sw sw--old"></i>ICMS/ISS</span><span><i class="sw sw--new"></i>IBS</span></div>
+          </div>
+          <ul class="rt__status" id="rtStatus"></ul>
+        </div>
+        <div class="rt__sys">
+          <span class="mono gold">NO SEU SISTEMA</span>
+          <p id="rtSys"></p>
+          <a class="btn btn--ghost btn--md" href="#contato">Adequar meu ERP</a>
+        </div>
+      </div>
+      <p class="rt__note">Cronograma da EC 132/2023 e da LC 214/2025, em versão simplificada. Barras indicam a participação relativa de cada tributo na transição, não alíquotas. Confirme sempre na legislação e nas notas técnicas vigentes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FERRAMENTAS -->
+<section id="ferramentas" class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <p class="eyebrow">04 · FERRAMENTAS</p>
+        <h2 class="h2">Validador de CNPJ alfanumérico.</h2>
+      </div>
+      <p class="sec__aside">Desde julho de 2026 a Receita pode emitir CNPJ com letras. Teste se um número é válido pelo cálculo oficial. Roda no seu navegador; nada é enviado.</p>
+    </div>
+
+    <div class="cnpj">
+      <div class="cnpj__form">
+        <label for="cnpjIn" class="mono">CNPJ (numérico ou alfanumérico)</label>
+        <div class="cnpj__row">
+          <input id="cnpjIn" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="18" placeholder="12.ABC.345/01DE-35">
+          <button type="button" class="btn btn--ghost btn--md" id="cnpjGen">Gerar exemplo</button>
+        </div>
+        <div class="cnpj__res" id="cnpjRes" role="status" aria-live="polite">
+          <span class="cnpj__badge mono">AGUARDANDO</span>
+          <span>Digite os 14 caracteres. As 12 primeiras posições aceitam letras e números; os 2 últimos são os dígitos verificadores.</span>
+        </div>
+      </div>
+      <div class="cnpj__calc" aria-label="Memória de cálculo">
+        <span class="mono gold">MEMÓRIA DE CÁLCULO</span>
+        <div class="cnpj__cells" id="cnpjCells"></div>
+        <ol class="cnpj__steps mono" id="cnpjSteps">
+          <li>Cada caractere vale o código ASCII menos 48 (0–9 = 0–9; A = 17 … Z = 42).</li>
+          <li>1º DV: pesos 5,4,3,2,9,8,7,6,5,4,3,2 · módulo 11.</li>
+          <li>2º DV: pesos 6,5,4,3,2,9,8,7,6,5,4,3,2 · módulo 11.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STACK + PROCESSO -->
+<section id="stack" class="sec">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <p class="eyebrow">05 · STACK E PROCESSO</p>
+        <h2 class="h2">Ferramenta certa, processo previsível.</h2>
+      </div>
+    </div>
+    <div class="stack">
+      <span class="tech tech--gold">Delphi / Object Pascal</span>
+      <span class="tech tech--gold">Firebird</span>
+      <span class="tech">SQL</span>
+      <span class="tech">XML · XSD</span>
+      <span class="tech">SOAP · REST</span>
+      <span class="tech">Certificado digital A1</span>
+      <span class="tech">PHP</span>
+      <span class="tech">PostgreSQL</span>
+      <span class="tech">Linux · Apache</span>
+      <span class="tech">SVN · Git</span>
+      <span class="tech tech--green">Desenvolvimento assistido por IA</span>
+    </div>
+    <ol class="flow">
+      <li><span class="flow__n mono">01</span><h3>Diagnóstico</h3><p>Leio o código, o banco e o problema antes de prometer prazo.</p></li>
+      <li><span class="flow__n mono">02</span><h3>Proposta clara</h3><p>Escopo, prazo e valor por escrito. Sem surpresa no meio do caminho.</p></li>
+      <li><span class="flow__n mono">03</span><h3>Entrega em etapas</h3><p>Versões testadas em homologação, liberadas aos poucos.</p></li>
+      <li><span class="flow__n mono">04</span><h3>Suporte</h3><p>Acompanho a virada para produção e o que vier depois.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="sec sec--alt">
+  <div class="wrap contact">
+    <div class="contact__intro">
+      <p class="eyebrow">06 · CONTATO</p>
+      <h2 class="h2">Me conta o que está travando.</h2>
+      <p class="sec__aside">Monte a mensagem em três toques e envie pelo WhatsApp ou e-mail. Respondo com as perguntas certas para entender o caso.</p>
+      <div class="contact__direct">
+        <a class="mono" id="mailLink" href="#">[SEU E-MAIL]</a>
+        <span class="mono">JARAGUÁ DO SUL · SC · ATENDIMENTO REMOTO</span>
+      </div>
+    </div>
+    <form class="brief" id="brief" novalidate>
+      <fieldset>
+        <legend class="mono">1 · O QUE VOCÊ PRECISA</legend>
+        <div class="opts" data-group="servico">
+          <button type="button" class="opt" data-v="Integração fiscal (NF-e, NFS-e, CT-e, GNRE)">Integração fiscal</button>
+          <button type="button" class="opt" data-v="Adequação à Reforma Tributária">Reforma Tributária</button>
+          <button type="button" class="opt" data-v="Manutenção de sistema legado">Sistema legado</button>
+          <button type="button" class="opt" data-v="Integração ou módulo sob medida">Sob medida</button>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend class="mono">2 · SITUAÇÃO</legend>
+        <div class="opts" data-group="situacao">
+          <button type="button" class="opt" data-v="Está parado ou rejeitando agora">Parado / rejeitando</button>
+          <button type="button" class="opt" data-v="Tenho um prazo para adequar">Tenho um prazo</button>
+          <button type="button" class="opt" data-v="Projeto novo, sem urgência">Projeto novo</button>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend class="mono">3 · SEU SISTEMA</legend>
+        <div class="opts" data-group="sistema">
+          <button type="button" class="opt" data-v="Delphi">Delphi</button>
+          <button type="button" class="opt" data-v="PHP / Web">PHP / Web</button>
+          <button type="button" class="opt" data-v="Outra linguagem">Outro</button>
+          <button type="button" class="opt" data-v="Não sei">Não sei</button>
+        </div>
+      </fieldset>
+      <div class="brief__fields">
+        <label><span class="mono">SEU NOME</span><input type="text" id="bName" autocomplete="name"></label>
+        <label><span class="mono">EMPRESA (OPCIONAL)</span><input type="text" id="bCompany" autocomplete="organization"></label>
+        <label class="full"><span class="mono">DETALHES (OPCIONAL)</span><textarea id="bMsg" rows="3" placeholder="Ex.: rejeição 225 ao emitir NF-e de devolução"></textarea></label>
+      </div>
+      <div class="brief__preview">
+        <span class="mono">PRÉVIA DA MENSAGEM</span>
+        <pre id="bPreview"></pre>
+      </div>
+      <div class="brief__actions">
+        <button type="button" class="btn btn--gold btn--lg" id="bWa">Enviar pelo WhatsApp</button>
+        <button type="button" class="btn btn--ghost btn--lg" id="bMail">Enviar por e-mail</button>
+      </div>
+      <p class="brief__warn" id="bWarn" hidden></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in mono">
+    <span>© <span id="year">2026</span> FERNANDO PARISE · IRON RONIN SYSTEMS</span>
+    <span>CNPJ [CNPJ DA IRON RONIN] · JARAGUÁ DO SUL/SC</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
